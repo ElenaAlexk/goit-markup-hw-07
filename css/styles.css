@@ -477,10 +477,10 @@ img {
   gap: 30px;
   color: #eeeeee;
 }
-.flex-thumb {
+.features__thumb {
   position: relative;
 }
-.action {
+.features__action {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -493,7 +493,7 @@ img {
   z-index: 1;
 }
 
-.desk {
+.features__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14px;
