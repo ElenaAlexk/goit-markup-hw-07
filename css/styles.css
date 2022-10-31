@@ -327,6 +327,7 @@ ol {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   resize: none;
+  outline: none;
 }
 .form-modal__field textarea::placeholder {
   font-size: 12px;
@@ -384,13 +385,13 @@ ol {
   background-color: #188ce8;
 }
 /* Кнопки Портфоліо */
-.btn-filter {
+.filter {
   display: flex;
   gap: 8px;
   margin-bottom: 50px;
   justify-content: center;
 }
-.button-filter {
+.filter__button {
   padding: 6px 22px;
   background-color: #f5f4fa;
   color: var(--title-text-color);
@@ -405,12 +406,12 @@ ol {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-filter.current {
+.filter__button.current {
   background: var(--accent-color);
 }
 
-.button-filter:hover,
-.button-filter:focus {
+.filter__button:hover,
+.filter__button:focus {
   background: var(--accent-color);
   color: var(--primary-text-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
