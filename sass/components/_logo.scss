@@ -11,6 +11,9 @@
 &__text {
   color: $secondary-color;
 }
+&__text--inverse {
+  color: $background-color;
+}
 &:hover,
 &:focus {
   color: $accentcolor;
