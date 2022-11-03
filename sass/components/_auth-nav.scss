@@ -17,13 +17,13 @@
     color: $accentcolor;
   }
 }
-&__link {
+.link {
   display: flex;
   align-items: center;
   color: $text-color;
   text-decoration: none;
 }
-&__icon {
+.icon {
   fill: currentColor;
   margin-right: 10px;
 }

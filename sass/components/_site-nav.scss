@@ -16,19 +16,19 @@
     color: $accentcolor;
   }
 }
-&__link {
+.link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
   color: $title-color;
   text-decoration: none;
 
-  &__link--current {
+  &--current {
     position: relative;
     color: $accentcolor;
   }
 }
-&__link--current::after {
+.link--current::after {
   content: '';
   position: absolute;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
