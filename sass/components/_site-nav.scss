@@ -16,7 +16,7 @@
     color: $accentcolor;
   }
 }
-.link {
+.site-nav__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -28,7 +28,7 @@
     color: $accentcolor;
   }
 }
-.link--current::after {
+.site-nav__link--current::after {
   content: '';
   position: absolute;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);

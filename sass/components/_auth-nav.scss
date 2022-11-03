@@ -17,13 +17,13 @@
     color: $accentcolor;
   }
 }
-.link {
+.auth-nav__link {
   display: flex;
   align-items: center;
   color: $text-color;
   text-decoration: none;
 }
-.icon {
+.auth-nav__icon {
   fill: currentColor;
   margin-right: 10px;
 }
