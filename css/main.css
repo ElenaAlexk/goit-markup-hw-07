@@ -115,7 +115,6 @@ ol {
   position: relative;
   color: #2196f3;
 }
-
 .site-nav__link--current::after {
   content: "";
   position: absolute;
@@ -128,7 +127,7 @@ ol {
   border-radius: 2px;
   background-color: currentColor;
 }
-.site-nav__link--current::after__link--current:hover::after {
+.site-nav__link:hover::after {
   opacity: 1;
 }
 
