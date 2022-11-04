@@ -201,6 +201,10 @@ ol {
   padding: 10px 32px;
   min-width: 216px;
 }
+.hero__button:hover, .hero__button:focus {
+  background: #188ce8;
+  color: #ffffff;
+}
 
 .button {
   display: inline-block;
@@ -221,12 +225,6 @@ ol {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hero__button:hover,
-.hero__button:focus {
-  background: #188ce8;
-  color: #ffffff;
 }
 
 .backdrop {
